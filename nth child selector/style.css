@@ -47,6 +47,13 @@ div:before {
   background-color: lightsteelblue;
 }
 
-.three *:nth-child(odd) li:nth-child(-n + 3) {
+
+/* .three *:nth-child(odd) li:nth-child(-n + 3) {
+  background-color: lightsteelblue;
+}  */
+
+/* doet hetzelfde alleen specificity (0,3,3) */
+
+.three ul:nth-child(odd) li:nth-child(-n + 3) {
   background-color: lightsteelblue;
 }
